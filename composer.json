@@ -1,0 +1,22 @@
+{
+    "name": "jvsjanilson/validador-documento",
+    "description": "Validador de CPF e CNPJ (Alfanumerico)",
+    "type": "library",
+    "keywords": ["validador", "cpf", "cnpj"],
+    "require": {
+        "php": "^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jvsjanilson\\ValidadorDocumento\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Janilson Varela",
+            "email": "janilsonjvs@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
