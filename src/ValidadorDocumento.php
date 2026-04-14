@@ -77,7 +77,7 @@ class ValidadorDocumento
      */
     private static function charParaNumero($char) : int
     {
-        return is_numeric($char) ? (int)$char : ord(strtoupper($char)) - 55;
+        return is_numeric($char) ? (int)$char : ord(strtoupper($char)) - 48;
     }
 
     /**
